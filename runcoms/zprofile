@@ -5,6 +5,11 @@
 #   Sorin Ionescu <sorin.ionescu@gmail.com>
 #
 
+# Source main profile file if it exists.
+if [ -f ~/.profile ] ; then
+    source ~/.profile
+fi
+
 #
 # Browser
 #
@@ -17,8 +22,8 @@ fi
 # Editors
 #
 
-export EDITOR='nano'
-export VISUAL='nano'
+export EDITOR='vim'
+export VISUAL='vim'
 export PAGER='less'
 
 #
